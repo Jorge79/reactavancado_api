@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "name": "SectionTech",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Tecnologias utilizadas",
+      "unique": true
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech",
+      "required": true
+    }
+  }
+}

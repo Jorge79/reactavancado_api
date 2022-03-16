@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_agenda",
+  "info": {
+    "name": "sectionAgenda",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

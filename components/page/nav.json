@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_navs",
+  "info": {
+    "name": "Nav",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "O que iremos construir",
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

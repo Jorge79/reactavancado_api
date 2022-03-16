@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "money-bill-wave"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true,
+      "default": 415
+    },
+    "mumberInstallments": {
+      "required": true,
+      "type": "integer"
+    },
+    "priceInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Create items as bullet list",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}
