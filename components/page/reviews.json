@@ -2,7 +2,8 @@
   "collectionName": "components_page_reviews",
   "info": {
     "name": "reviews",
-    "icon": "star-of-david"
+    "icon": "star-of-david",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -23,6 +24,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "text": {
+      "type": "text",
+      "required": true
     }
   }
 }
